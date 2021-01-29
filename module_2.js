@@ -1,0 +1,12 @@
+"use strict";
+// import { addNumbers, Trainee as Student } from "./module_1";
+exports.__esModule = true;
+// let sum = addNumbers(4, 5);
+// console.log(sum);
+// let student1 = new Student(12, "Isaac Obuya", "ICT");
+// console.log(student1.printTraineeDetails());
+var imports = require("./module_1");
+var sum = imports.addNumbers(6, 7);
+console.log(sum);
+var student2 = new imports.Trainee(4, "John Doe", "Software Engineering");
+console.log(student2.printTraineeDetails());
